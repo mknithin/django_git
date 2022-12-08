@@ -7,7 +7,7 @@ from django_git.users.forms import UserAdminChangeForm, UserAdminCreationForm
 
 User = get_user_model()
 
-
+# Admin app is really nice django feature
 @admin.register(User)
 class UserAdmin(auth_admin.UserAdmin):
 
