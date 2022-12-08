@@ -3,7 +3,7 @@ from django.db.models import CharField
 from django.urls import reverse
 from django.utils.translation import gettext_lazy as _
 
-
+# models always make accessing databases much easy
 class User(AbstractUser):
     """
     Default custom user model for django_git.
